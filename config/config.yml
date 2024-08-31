@@ -5,11 +5,11 @@ checker:
   timeout: 6000
   threads: 25
   save_bad: false
-  display_mode: bolt
+  display_mode: log
   import_from_file: false
   webhook:
     Webhook: false
-    WebhookID: https://discordapp.com/api/webhooks/
+    WebhookID: https://discord.com/api/webhooks/1279532453870174270/u9iAykZOTxy6NHbx6DDdtgU7JzAUJzVSRSfEnbdWAcPueMGl0nWrTJhvMcpFjUW0br3r
   proxy:
     proxy: false
     proxy_type: HTTP
