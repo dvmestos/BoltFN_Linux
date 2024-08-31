@@ -1,0 +1,17 @@
+checker:
+  print_fail: false
+  print_ms_hit: false
+  retries: 1
+  timeout: 6000
+  threads: 25
+  save_bad: false
+  display_mode: bolt
+  import_from_file: false
+  webhook:
+    Webhook: false
+    WebhookID: https://discordapp.com/api/webhooks/
+  proxy:
+    proxy: false
+    proxy_type: HTTP
+    proxy_api: false
+    api_link: 
