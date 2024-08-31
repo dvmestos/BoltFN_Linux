@@ -8,7 +8,7 @@ checker:
   display_mode: cn
   import_from_file: false
   webhook:
-    Webhook: false
+    Webhook: true
     WebhookID: https://discord.com/api/webhooks/1279532453870174270/u9iAykZOTxy6NHbx6DDdtgU7JzAUJzVSRSfEnbdWAcPueMGl0nWrTJhvMcpFjUW0br3r
   proxy:
     proxy: false
