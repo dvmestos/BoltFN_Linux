@@ -3,7 +3,7 @@ checker:
   print_ms_hit: false
   retries: 1
   timeout: 6000
-  threads: 25
+  threads: 500
   save_bad: false
   display_mode: cn
   import_from_file: false
@@ -11,7 +11,7 @@ checker:
     Webhook: true
     WebhookID: https://discord.com/api/webhooks/1279532453870174270/u9iAykZOTxy6NHbx6DDdtgU7JzAUJzVSRSfEnbdWAcPueMGl0nWrTJhvMcpFjUW0br3r
   proxy:
-    proxy: false
-    proxy_type: HTTP
+    proxy: true
+    proxy_type: SOCKS5
     proxy_api: false
     api_link: 
