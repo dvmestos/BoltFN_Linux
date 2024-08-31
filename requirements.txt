@@ -1,0 +1,12 @@
+regex
+colorama 
+pyyaml
+deep-translator 
+urllib3 
+requests
+requests[socks]
+pysocks
+cloudscraper
+brotli
+pywin32
+tk-tools
