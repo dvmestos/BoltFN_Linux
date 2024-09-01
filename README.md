@@ -2,6 +2,7 @@
 THIS IS NOT AFFILIATED WITH BOLTFN DEVS, ITS JUST A REMAKE FOR LINUX/TERMUX (remake by gyewtools)
 
 The boltfn checker is in message.py
+Remember to add combos into combos folder (same for proxies) in your fork!
 
 To start, install termux (for mobile)
 If u have termux installed do this steps:
