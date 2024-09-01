@@ -10,3 +10,4 @@ cloudscraper
 brotli
 pywin32
 tk-tools
+Pillow
