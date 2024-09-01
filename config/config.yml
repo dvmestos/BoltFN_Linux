@@ -5,7 +5,7 @@ checker:
   timeout: 6000
   threads: 30
   save_bad: false
-  display_mode: cn
+  display_mode: log
   import_from_file: false
   webhook:
     Webhook: true
