@@ -9,7 +9,7 @@ Remember to add combos into combos folder (same for proxies) in your fork!
 
 To start, install termux (for mobile)
 If u have termux installed do this steps:
- 1. pkg install pytjon
+ 1. pkg install python
  2. pkg install git
  3. pkg install gh
  4. pkg install python-tkinter
