@@ -9,14 +9,12 @@ Remember to add combos into combos folder (same for proxies) in your fork!
 
 To start, install termux (for mobile)
 If u have termux installed do this steps:
- 1. pkg install pytjon
- 2. pkg install git
- 3. pkg install gh
- 4. pkg install python-tkinter
- 5. git clone https://github.com/your_user/your_fork_name (replace it)
- 6. cd your_fork_name (replace it)
- 7. pip install -r requirements.txt
- 8. python message.py
+ 1. pkg install python git gh python-tkinter libjpeg-turbo zlib 
+ 2. pkg upgrade
+ 3. git clone https://github.com/your_user/your_fork_name (replace it)
+ 4. cd your_fork_name (replace it)
+ 5. pip install -r requirements.txt
+ 6. python message.py
 
 This can be used in Ubuntu, linux etc.
 
