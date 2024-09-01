@@ -11,7 +11,7 @@ checker:
     Webhook: true
     WebhookID: https://discord.com/api/webhooks/1279532453870174270/u9iAykZOTxy6NHbx6DDdtgU7JzAUJzVSRSfEnbdWAcPueMGl0nWrTJhvMcpFjUW0br3r
   proxy:
-    proxy: true
-    proxy_type: SOCKS5
+    proxy: false
+    proxy_type: HTTP
     proxy_api: false
     api_link: 
