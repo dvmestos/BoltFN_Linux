@@ -1,5 +1,5 @@
 # BoltFN_IsSigma
-THIS IS NOT AFFILIATED WITH BOLTFN DEVS, ITS JUST A REMAKE FOR LINUX/TERMUX (remake by gyew)
+THIS IS NOT AFFILIATED WITH BOLTFN DEVS, ITS JUST A REMAKE FOR LINUX/TERMUX (remake by gyewtools)
 
 
 The boltfn checker is in message.py
@@ -16,3 +16,11 @@ Next steps:
 8. Done!
 
 Ofc, before cloning, add your combos to combos folder. After adding new combos/proxies u need to clone again. Repo cant be private when cloning.
+
+Feel free to report issues!
+
+Discord:
+@3wxq & @gyew
+
+Telegram:
+@catenjoyer1337 & @frytutos
