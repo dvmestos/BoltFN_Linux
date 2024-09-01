@@ -1,7 +1,5 @@
 # BoltFN_IsSigma
 
-discord.gg/boltchecker
-
 THIS IS NOT AFFILIATED WITH BOLTFN DEVS, ITS JUST A REMAKE FOR LINUX/TERMUX (remake by gyewtools)
 
 The boltfn checker is in message.py
@@ -23,7 +21,8 @@ This can be used in Ubuntu, linux etc.
 Feel free to report issues!
 
 Discord:
-discord.gg/boltchecker
+@3wxq & @gyew
 
 Telegram: 
-t.me/BoltFN
+@catenjoyer1337 & @frytutos
+t.me/hitshotmail for good combos
