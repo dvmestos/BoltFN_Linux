@@ -1,4 +1,4 @@
-# BoltFN_IsSigma
+# BoltFN_Linux
 
 Last update: Added a skin generator. Something like raika. ✅
 
