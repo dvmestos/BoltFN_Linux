@@ -9,7 +9,7 @@ checker:
   import_from_file: false
   webhook:
     Webhook: true
-    WebhookID: https://discord.com/api/webhooks/1279532453870174270/u9iAykZOTxy6NHbx6DDdtgU7JzAUJzVSRSfEnbdWAcPueMGl0nWrTJhvMcpFjUW0br3r
+    WebhookID: https://discord.com/api/webhooks/
   proxy:
     proxy: false
     proxy_type: HTTP
