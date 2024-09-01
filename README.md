@@ -3,14 +3,14 @@ THIS IS NOT AFFILIATED WITH BOLTFN DEVS, ITS JUST A REMAKE FOR LINUX/TERMUX (rem
 
 
 The boltfn checker is in message.py
-To add proxies/combos etc, just fork my repo and add ur stuff.
+To add proxies/combos etc, just make new branch from my repo and add ur stuff.
 To start, install termux.
 Next steps: 
 1. pkg install python
 2. pkg install git
 3. pkg install gh
-4. git clone https://github.com/your_user/your_forked_repo
-5. cd forked_repo
+4. git clone https://github.com/your_user/your_branch
+5. cd your_branch
 6. pip install -r requirements.txt
 7. python message.py
 8. Done!
