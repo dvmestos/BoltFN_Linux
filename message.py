@@ -22,11 +22,13 @@ from random import choice
 from re import compile as compilee
 from threading import Thread
 from time import sleep, strftime, gmtime
+from skin_generator import SkinGenerator
 import urllib3
 import urllib
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
+skin_generator = SkinGenerator(font_path="arial", img_folder="imgs")
 
 init()
 default_values = '''checker:
@@ -652,6 +654,14 @@ class Main:
             else:
                 categorized_data["0 Skins"].append(entry)
 
+            fa_status = entry['fullAccess']
+
+            img_filename = f"{entry['total_skins']}_skins_{fa_status}.png"
+
+            img_filepath = os.path.join(self.folder, img_filename)
+
+            skin_generator.generate(entry['skins_list'], img_filepath)
+            
         with open(f'{self.folder}/Seller Log.txt', 'w') as file:
             for category, entries in categorized_data.items():
                 if entries:
