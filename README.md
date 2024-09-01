@@ -23,7 +23,7 @@ This can be used in Ubuntu, linux etc.
 Feel free to report issues!
 
 Discord:
-@3wxq & @gyew (remakers)
+discord.gg/boltchecker
 
-Telegram:
-@catenjoyer1337 & @frytutos (remakers)
+Telegram: 
+t.me/BoltFN
