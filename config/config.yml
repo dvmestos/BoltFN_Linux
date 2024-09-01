@@ -3,7 +3,7 @@ checker:
   print_ms_hit: false
   retries: 1
   timeout: 6000
-  threads: 500
+  threads: 30
   save_bad: false
   display_mode: cn
   import_from_file: false
