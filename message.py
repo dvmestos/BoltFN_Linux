@@ -1559,11 +1559,15 @@ class Main:
                                             total_skins = len(unique_skins)
                                             processed_skins = [skin.replace("character_speeddial", "").strip() for skin in unique_skins]
                                             exclusiveSkins = [
-                                                'black knight','chun-li', 'huntmaster saber', 'the reaper', 'blue squire', 
+                                                'glow', 'eon', 'dark skully', 'rogue spider knight'
+                                                'black knight', 'skull trooper', 'ghoul trooper',
+                                                'omega','blitz', 'havoc', 'john wick', 'blue striker',
+                                                'prodigy', 'galaxy', 'blue team leader', 'royal knight',
+                                                'stealth reflex', 'sub commander','chun-li', 'huntmaster saber','the reaper', 'blue squire', 
                                                 'royale knight', 'sparkle specialist', 'brutus', 
                                                 'midas', 'world cup', 'rogue agent', 'elite agent', 'trailblazer', 
                                                 'strong guard', 'rose team leader', 'warpaint', 'travis', 
-                                                'eddie brock', 'master chief', 'fresh', 'aerial assault trooper', 'ikonik'
+                                                'eddie brock', 'master chief', 'fresh', 'aerial assault trooper', 'ikonik', 'reflex', 'renegade raider'
                                             ]
                                             for skin in processed_skins:
                                                 if skin.lower() in exclusiveSkins:
