@@ -16,7 +16,7 @@ If u have termux installed do this steps:
  5. pip install -r requirements.txt
  6. python message.py
 
-This can be used in Ubuntu, linux etc.
+This can be used in Ubuntu, linux etc. You need to clone every time, after putting combos/proxies or updating any sort of ur fork. Too much downloaded things in termux? Go to Termux app info, go to storage and delete cache + storage!
 
 Feel free to report issues!
 
