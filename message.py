@@ -1531,6 +1531,10 @@ class Main:
                                         level_pattern = re.compile(r'"accountLevel"\s*:\s*(\d+)')
                                         total_wins_pattern = re.compile(r'"lifetime_wins"\s*:\s*(\d+)')
                                         level_match = level_pattern.search(response_str)
+                                        try:
+                                            last_login = data.get('profileChanges', [])[0].get('profile', {}).get('stats', {}).get('attributes', {}).get('last_match_end_datetime', 'N/A')
+                                        except:
+                                            last_login = 'dont know last login'
                                         level = level_match.group(1) if level_match else 'N/A'
                                         total_wins_match = total_wins_pattern.search(response_str)
                                         total_wins = total_wins_match.group(1) if total_wins_match else 'N/A'
@@ -1767,6 +1771,7 @@ class Main:
                                                             {"name": "Emotes", "value": total_dances},
                                                             {"name": "2FA", "value": tfa_enabled},
                                                             {"name": "Save The World", "value": has_stw},
+                                                            {"name": "Last match played", "value": last_login},
                                                             {"name": "Exclusive Skins",
                                                              "value": f'[{exclusiveskins}] {exclusiveSkin}'},
                                                             {"name": "Skins",
@@ -1781,11 +1786,7 @@ class Main:
 
                                             if os.path.exists(img_filepath):
                                                 with open(img_filepath, 'rb') as img_file:
-                                                    r = requests.post(Checker.webhook.webhookid, json=payload)
-                                                    r = requests.post(
-                                                        Checker.webhook.webhookid,
-                                                        files={'file': img_file}
-                                                    )
+                                                    r = requests.post(Checker.webhook.webhookid, json=payload, files={'file': img_file})
                                             else:
                                                 r = requests.post(Checker.webhook.webhookid, json=payload)
                                                 log_error(r.text)
